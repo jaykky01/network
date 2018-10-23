@@ -1,6 +1,6 @@
 import tensorflow as tf
 from tensorflow.examples.tutorials.mnist import input_data
-from network import LeNet
+from nets import LeNet
 
 def load_network():
     x = tf.placeholder("float", shape=[None, 784])  # 训练标签数据
